@@ -1,0 +1,79 @@
+.currentlocation, .getweather, .index{
+	margin-top: 70px;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+#content{
+	font-size: 70px;
+	text-align: center;
+	padding-top: 25%;
+	text-shadow: 0px 4px 3px blue,
+				0px 8px 13px rgba(0,0,100),
+				0px 18px 23px rgba(0,0,100,0.1);	
+}
+.index{
+	background-image: url(https://images.unsplash.com/photo-1551383085-6eeb3f29e76c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+}
+.title{
+	color: white;
+}
+html{
+	height: 100%;
+}
+hr.style-three {
+height: 30px;
+border-style: solid;
+border-color: black;
+border-width: 1px 0 0 0;
+border-radius: 20px;
+}
+hr.style-three:before {
+display: block;
+content: "";
+height: 30px;
+margin-top: -31px;
+border-style: solid;
+border-color: black;
+border-width: 0 0 1px 0;
+border-radius: 20px;
+}
+.forecast{
+
+	display: flex;
+	justify-content: center;
+}
+#showWeatherForecast{
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+.display-4{
+	display: flex;
+	justify-content: center;
+}
+.lead{
+	display: flex;
+	justify-content: center;
+}
+.getweather{
+	background-color: aquamarine;
+}
+.currentlocation{
+	background-color: aquamarine;
+}
+.jumbotron{
+	background-color: aqua;
+}
+.findme{
+	display: flex;
+	justify-content: center;
+	border: solid black 2px;
+	background-color: white;
+	width: 20%;
+
+}
